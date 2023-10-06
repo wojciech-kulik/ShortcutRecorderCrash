@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B0E0A22AD0D5FA003D5546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0E0A12AD0D5FA003D5546 /* AppDelegate.swift */; };
+		16B0E0A42AD0D5FA003D5546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0E0A32AD0D5FA003D5546 /* ViewController.swift */; };
+		16B0E0A62AD0D5FB003D5546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B0E0A52AD0D5FB003D5546 /* Assets.xcassets */; };
+		16B0E0A92AD0D5FB003D5546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B0E0A72AD0D5FB003D5546 /* Main.storyboard */; };
+		16F9F51032A9DBA0D0DA360E /* Pods_ShortcutRecorderCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FB88811718F0B60BFDD499 /* Pods_ShortcutRecorderCrash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16B0E09E2AD0D5FA003D5546 /* ShortcutRecorderCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutRecorderCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B0E0A12AD0D5FA003D5546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16B0E0A32AD0D5FA003D5546 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16B0E0A52AD0D5FB003D5546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16B0E0A82AD0D5FB003D5546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16B0E0AA2AD0D5FB003D5546 /* ShortcutRecorderCrash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShortcutRecorderCrash.entitlements; sourceTree = "<group>"; };
+		614CA17253CCD46D811D6C6F /* Pods-ShortcutRecorderCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortcutRecorderCrash.debug.xcconfig"; path = "Target Support Files/Pods-ShortcutRecorderCrash/Pods-ShortcutRecorderCrash.debug.xcconfig"; sourceTree = "<group>"; };
+		978D9220BDCAC2C1F4BCA6F7 /* Pods-ShortcutRecorderCrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortcutRecorderCrash.release.xcconfig"; path = "Target Support Files/Pods-ShortcutRecorderCrash/Pods-ShortcutRecorderCrash.release.xcconfig"; sourceTree = "<group>"; };
+		B5FB88811718F0B60BFDD499 /* Pods_ShortcutRecorderCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortcutRecorderCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B0E09B2AD0D5FA003D5546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F9F51032A9DBA0D0DA360E /* Pods_ShortcutRecorderCrash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B0E0952AD0D5FA003D5546 = {
+			isa = PBXGroup;
+			children = (
+				16B0E0A02AD0D5FA003D5546 /* ShortcutRecorderCrash */,
+				16B0E09F2AD0D5FA003D5546 /* Products */,
+				41E18B59D6E23D75EEF923DE /* Pods */,
+				3B27091777DAC805EF2A4E10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16B0E09F2AD0D5FA003D5546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B0E09E2AD0D5FA003D5546 /* ShortcutRecorderCrash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B0E0A02AD0D5FA003D5546 /* ShortcutRecorderCrash */ = {
+			isa = PBXGroup;
+			children = (
+				16B0E0A12AD0D5FA003D5546 /* AppDelegate.swift */,
+				16B0E0A32AD0D5FA003D5546 /* ViewController.swift */,
+				16B0E0A52AD0D5FB003D5546 /* Assets.xcassets */,
+				16B0E0A72AD0D5FB003D5546 /* Main.storyboard */,
+				16B0E0AA2AD0D5FB003D5546 /* ShortcutRecorderCrash.entitlements */,
+			);
+			path = ShortcutRecorderCrash;
+			sourceTree = "<group>";
+		};
+		3B27091777DAC805EF2A4E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5FB88811718F0B60BFDD499 /* Pods_ShortcutRecorderCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41E18B59D6E23D75EEF923DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				614CA17253CCD46D811D6C6F /* Pods-ShortcutRecorderCrash.debug.xcconfig */,
+				978D9220BDCAC2C1F4BCA6F7 /* Pods-ShortcutRecorderCrash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B0E09D2AD0D5FA003D5546 /* ShortcutRecorderCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B0E0AD2AD0D5FB003D5546 /* Build configuration list for PBXNativeTarget "ShortcutRecorderCrash" */;
+			buildPhases = (
+				BD45EF335E26FA1BA72A7822 /* [CP] Check Pods Manifest.lock */,
+				16B0E09A2AD0D5FA003D5546 /* Sources */,
+				16B0E09B2AD0D5FA003D5546 /* Frameworks */,
+				16B0E09C2AD0D5FA003D5546 /* Resources */,
+				38E5F4DCB4A5671C4B8C1847 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortcutRecorderCrash;
+			productName = ShortcutRecorderCrash;
+			productReference = 16B0E09E2AD0D5FA003D5546 /* ShortcutRecorderCrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B0E0962AD0D5FA003D5546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					16B0E09D2AD0D5FA003D5546 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 16B0E0992AD0D5FA003D5546 /* Build configuration list for PBXProject "ShortcutRecorderCrash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B0E0952AD0D5FA003D5546;
+			productRefGroup = 16B0E09F2AD0D5FA003D5546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B0E09D2AD0D5FA003D5546 /* ShortcutRecorderCrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B0E09C2AD0D5FA003D5546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B0E0A62AD0D5FB003D5546 /* Assets.xcassets in Resources */,
+				16B0E0A92AD0D5FB003D5546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38E5F4DCB4A5671C4B8C1847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShortcutRecorderCrash/Pods-ShortcutRecorderCrash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShortcutRecorderCrash/Pods-ShortcutRecorderCrash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShortcutRecorderCrash/Pods-ShortcutRecorderCrash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD45EF335E26FA1BA72A7822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShortcutRecorderCrash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B0E09A2AD0D5FA003D5546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B0E0A42AD0D5FA003D5546 /* ViewController.swift in Sources */,
+				16B0E0A22AD0D5FA003D5546 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16B0E0A72AD0D5FB003D5546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B0E0A82AD0D5FB003D5546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16B0E0AB2AD0D5FB003D5546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16B0E0AC2AD0D5FB003D5546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		16B0E0AE2AD0D5FB003D5546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614CA17253CCD46D811D6C6F /* Pods-ShortcutRecorderCrash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShortcutRecorderCrash/ShortcutRecorderCrash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT56B63DU5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.wojciechkulik.ShortcutRecorderCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16B0E0AF2AD0D5FB003D5546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978D9220BDCAC2C1F4BCA6F7 /* Pods-ShortcutRecorderCrash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShortcutRecorderCrash/ShortcutRecorderCrash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT56B63DU5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.wojciechkulik.ShortcutRecorderCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B0E0992AD0D5FA003D5546 /* Build configuration list for PBXProject "ShortcutRecorderCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B0E0AB2AD0D5FB003D5546 /* Debug */,
+				16B0E0AC2AD0D5FB003D5546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B0E0AD2AD0D5FB003D5546 /* Build configuration list for PBXNativeTarget "ShortcutRecorderCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B0E0AE2AD0D5FB003D5546 /* Debug */,
+				16B0E0AF2AD0D5FB003D5546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16B0E0962AD0D5FA003D5546 /* Project object */;
+}
